@@ -1,10 +1,10 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="mainCss.css">
 
     <title>Luis A. Perez Alfonso | Portfolio</title>
@@ -16,25 +16,37 @@
          CABECERA
          ===================================================== -->
 
-    <div class="barrasuperior">
+    <header class="barrasuperior">
 
         <div class="imglogo">
 
             <div class="logo">
                 <img src="img/a.png" alt="Logo Luis A. Perez Alfonso">
             </div>
-            
+
             <div class="datosPresentacion">
-                <p class="titulillo">Luis A. Perez Alfonso</p>
-                <p class="subtitulo">Apacionado de la informatica :D</p>
+
+                <p class="titulillo">
+                    Luis A. Perez Alfonso
+                </p>
+
+                <p class="subtitulo">
+                    Apasionado de la informática :D
+                </p>
+
             </div>
 
         </div>
 
-        <div class="navbar">
+
+        <nav class="navbar">
+
+            <a href="#inicio" class="button">
+                <span>inicio</span>
+            </a>
 
             <a href="#datos" class="button">
-                <span>datos personales</span>
+                <span>sobre mí</span>
             </a>
 
             <a href="#capacidades" class="button">
@@ -42,16 +54,22 @@
             </a>
 
             <a href="#tecnologias" class="button">
-                <span>tecnologias</span>
+                <span>tecnologías</span>
             </a>
 
             <a href="#proyectos" class="button">
                 <span>proyectos</span>
             </a>
 
-        </div>
+            <a href="#contacto" class="button">
+                <span>contacto</span>
+            </a>
+
+        </nav>
+
 
         <div class="redes">
+
             <li class="rs">
                 <a href="">
                     <img src="img/t.png" alt="Twitter" class="t">
@@ -63,155 +81,62 @@
                     <img src="img/f.png" alt="Facebook" class="f">
                 </a>
             </li>
-        </div>
-
-    </div>
-
-    <!-- =====================================================
-         PRESENTACIÓN
-         ===================================================== -->
-
-    <div class="capcelera">
-
-        <div class="box">
-
-            <div class="content">
-
-                <p>
-                    Buenas tardes, mi nombre es Luis Alejandro Perez Alfonso
-                    y bienvenido a mi portfolio.
-                    En este encontrarás información sobre mi formación,
-                    mis capacidades, las tecnologías que conozco
-                    y algunos de los proyectos que he realizado.
-                </p>
-
-            </div>
 
         </div>
 
-    </div>
+    </header>
 
 
     <!-- =====================================================
-         01 — DATOS PERSONALES
+         INICIO / HERO
          ===================================================== -->
 
-    <section id="datos" class="seccion">
+    <section id="inicio" class="hero">
 
-       
-            <h2>— DATOS PERSONALES</h2>
-            <!-- <hr> -->
-      
-        <div class="contenido-seccion">
+        <div class="hero-texto">
 
-            <div class="info">
+            <p class="hero-saludo">
+                HOLA, SOY
+            </p>
 
-                <h3>Sobre mí</h3>
+            <h1>
+                Luis <span>Pérez</span>
+            </h1>
 
-                <p>
-                    Soy estudiante de Desarrollo de Aplicaciones Multiplataforma
-                    (DAM), interesado en el desarrollo de software y en la
-                    creación de aplicaciones.
-                </p>
+            <h2>
+                Desarrollador de Aplicaciones Multiplataforma
+            </h2>
 
-                <p>
-                    Actualmente estoy ampliando mis conocimientos en programación,
-                    bases de datos, desarrollo web y desarrollo de aplicaciones.
-                </p>
+            <p class="hero-descripcion">
+                Estudiante de DAM con interés en el desarrollo de software,
+                las nuevas tecnologías y la creación de aplicaciones útiles.
+            </p>
 
-            </div>
+            <div class="hero-botones">
 
+                <a href="#proyectos" class="hero-boton principal">
+                    Ver mis proyectos
+                </a>
 
-            <div class="info">
-
-                <h3>Formación</h3>
-
-                <p>
-                    <strong>Desarrollo de Aplicaciones Multiplataforma</strong>
-                </p>
-
-                <p>
-                    Formación orientada al desarrollo de aplicaciones,
-                    programación, bases de datos y diferentes tecnologías
-                    utilizadas en el sector.
-                </p>
-
-            </div>
-
-
-            <div class="info">
-
-                <h3>Objetivo</h3>
-
-                <p>
-                    Continuar desarrollándome como programador y adquirir
-                    experiencia profesional participando en proyectos reales.
-                </p>
+                <a href="#contacto" class="hero-boton">
+                    Contactar
+                </a>
 
             </div>
 
         </div>
-        
-
-    </section>
 
 
-    <!-- =====================================================
-         02 — CAPACIDADES
-         ===================================================== -->
+        <div class="hero-imagen">
 
-    <section id="capacidades" class="seccion">
+            <!--
+                colocar aquí una imagen.
 
-        <h2>— CAPACIDADES</h2>
+                <img src="img/portfolio.jpg" alt="Zona de trabajo">
+            -->
 
-        <div class="contenido-seccion">
-
-            <div class="info">
-
-                <h3>Programación</h3>
-
-                <p>
-                    Desarrollo de aplicaciones utilizando programación
-                    orientada a objetos, estructuras de datos y diferentes
-                    patrones de programación.
-                </p>
-
-            </div>
-
-
-            <div class="info">
-
-                <h3>Bases de datos</h3>
-
-                <p>
-                    Diseño y gestión de bases de datos utilizando SQL,
-                    consultas, relaciones entre tablas y operaciones CRUD.
-                </p>
-
-            </div>
-
-
-            <div class="info">
-
-                <h3>Desarrollo web</h3>
-
-                <p>
-                    Desarrollo de páginas y aplicaciones web utilizando
-                    HTML, CSS, JavaScript, PHP y Laravel.
-                </p>
-
-            </div>
-
-
-            <div class="info">
-
-                <h3>Trabajo con herramientas</h3>
-
-                <p>
-                    Uso de herramientas como Git, GitHub, Visual Studio Code,
-                    Android Studio, Eclipse y diferentes entornos de desarrollo.
-                </p>
-
+            <div class="hero-placeholder">
+                <span>&lt;/&gt;</span>
             </div>
 
         </div>
@@ -220,163 +145,202 @@
 
 
     <!-- =====================================================
-         03 — TECNOLOGÍAS
+         SOBRE MÍ + TECNOLOGÍAS
          ===================================================== -->
 
-    <section id="tecnologias" class="seccion">
+    <section class="perfil-tecnologias">
 
-        <h2>— TECNOLOGÍAS</h2>
+        <!-- SOBRE MÍ -->
 
-        <!-- Tus tarjetas originales -->
+        <div id="datos" class="sobre-mi">
 
-        <div class="cardcontainer">
+            <h2>— SOBRE MÍ</h2>
 
-            <div class="card">
+            <div class="contenido-sobre-mi">
 
-                <div class="card-inner">
+                <p>
+                    Soy estudiante de Desarrollo de Aplicaciones
+                    Multiplataforma (DAM), interesado en el desarrollo
+                    de software y en la creación de aplicaciones.
+                </p>
 
-                    <div class="card-front">
-                        <img src="img/java.png" alt="Java">
-                    </div>
+                <p>
+                    Actualmente estoy ampliando mis conocimientos
+                    en programación, bases de datos, desarrollo web
+                    y desarrollo de aplicaciones.
+                </p>
 
-                    <div class="card-back">
-                        <p>Java</p>
+                <p>
+                    Me interesa seguir aprendiendo nuevas tecnologías
+                    y adquirir experiencia trabajando en proyectos reales.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- TECNOLOGÍAS -->
+
+        <div id="tecnologias" class="tecnologias">
+
+            <h2>— TECNOLOGÍAS</h2>
+
+
+            <!-- =================================================
+                 TUS TARJETAS ORIGINALES
+                 ================================================= -->
+
+            <div class="cardcontainer">
+
+                <div class="card" data-tech="java"> <!--añadido data-tech="java" -->
+
+                    <div class="card-inner">
+
+                        <div class="card-front">
+                            <img src="img/java.png" alt="Java">
+                        </div>
+
+                        <div class="card-back">
+                            <p>Java</p>
+                        </div>
+
                     </div>
 
                 </div>
 
-            </div>
 
+                <div class="card">
 
-            <div class="card">
+                    <div class="card-inner">
 
-                <div class="card-inner">
+                        <div class="card-front">
+                            <img src="img/html-5.png" alt="HTML">
+                        </div>
 
-                    <div class="card-front">
-                        <img src="img/html-5.png" alt="HTML">
-                    </div>
+                        <div class="card-back">
+                            <p>HTML-5</p>
+                        </div>
 
-                    <div class="card-back">
-                        <p>HTML-5</p>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="card">
-
-                <div class="card-inner">
-
-                    <div class="card-front">
-                        <img src="img/php.png" alt="PHP">
-                    </div>
-
-                    <div class="card-back">
-                        <p>PHP</p>
                     </div>
 
                 </div>
 
-            </div>
 
+                <div class="card">
 
-            <div class="card">
+                    <div class="card-inner">
 
-                <div class="card-inner">
+                        <div class="card-front">
+                            <img src="img/php.png" alt="PHP">
+                        </div>
 
-                    <div class="card-front">
-                        <img src="img/javascript.png" alt="JavaScript">
-                    </div>
+                        <div class="card-back">
+                            <p>PHP</p>
+                        </div>
 
-                    <div class="card-back">
-                        <p>JavaScript</p>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="card">
-
-                <div class="card-inner">
-
-                    <div class="card-front">
-                        <img src="img/css.png" alt="CSS">
-                    </div>
-
-                    <div class="card-back">
-                        <p>CSS</p>
                     </div>
 
                 </div>
 
-            </div>
 
+                <div class="card">
 
-            <div class="card">
+                    <div class="card-inner">
 
-                <div class="card-inner">
+                        <div class="card-front">
+                            <img src="img/javascript.png" alt="JavaScript">
+                        </div>
 
-                    <div class="card-front">
-                        <img src="img/kotlin.png" alt="Kotlin">
-                    </div>
+                        <div class="card-back">
+                            <p>JavaScript</p>
+                        </div>
 
-                    <div class="card-back">
-                        <p>Kotlin</p>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="card">
-
-                <div class="card-inner">
-
-                    <div class="card-front">
-                        <img src="img/Laravel.png" alt="Laravel">
-                    </div>
-
-                    <div class="card-back">
-                        <p>Laravel</p>
                     </div>
 
                 </div>
 
-            </div>
 
+                <div class="card">
 
-            <div class="card">
+                    <div class="card-inner">
 
-                <div class="card-inner">
+                        <div class="card-front">
+                            <img src="img/css.png" alt="CSS">
+                        </div>
 
-                    <div class="card-front">
-                        <img src="img/servidor-sql.png" alt="SQL">
-                    </div>
+                        <div class="card-back">
+                            <p>CSS</p>
+                        </div>
 
-                    <div class="card-back">
-                        <p>SQL</p>
                     </div>
 
                 </div>
 
-            </div>
 
+                <div class="card">
 
-            <div class="card">
+                    <div class="card-inner">
 
-                <div class="card-inner">
+                        <div class="card-front">
+                            <img src="img/kotlin.png" alt="Kotlin">
+                        </div>
 
-                    <div class="card-front">
-                        <img src="img/datos.png" alt="Oracle">
+                        <div class="card-back">
+                            <p>Kotlin</p>
+                        </div>
+
                     </div>
 
-                    <div class="card-back">
-                        <p>Oracle</p>
+                </div>
+
+
+                <div class="card">
+
+                    <div class="card-inner">
+
+                        <div class="card-front">
+                            <img src="img/Laravel.png" alt="Laravel">
+                        </div>
+
+                        <div class="card-back">
+                            <p>Laravel</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="card">
+
+                    <div class="card-inner">
+
+                        <div class="card-front">
+                            <img src="img/servidor-sql.png" alt="SQL">
+                        </div>
+
+                        <div class="card-back">
+                            <p>SQL</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="card">
+
+                    <div class="card-inner">
+
+                        <div class="card-front">
+                            <img src="img/datos.png" alt="Oracle">
+                        </div>
+
+                        <div class="card-back">
+                            <p>Oracle</p>
+                        </div>
+
                     </div>
 
                 </div>
@@ -389,78 +353,218 @@
 
 
     <!-- =====================================================
-         04 — PROYECTOS
+         CAPACIDADES
          ===================================================== -->
 
-    <section id="proyectos" class="seccion">
+    <section id="capacidades" class="seccion capacidades">
 
-        <h2>— PROYECTOS</h2>
+        <div class="contenedor">
 
-        <div class="contenido-seccion">
+            <h2>— CAPACIDADES</h2>
+
+            <div class="capacidades-grid">
 
 
-            <div class="proyecto">
+                <div class="info">
 
-                <h3>EL RECETARIO</h3>
+                    <h3>Programación</h3>
 
-                <p>
-                    Aplicación web orientada a la gestión de recetas,
-                    productos y categorías.
-                </p>
+                    <p>
+                        Desarrollo de aplicaciones utilizando
+                        programación orientada a objetos,
+                        estructuras de datos y diferentes
+                        patrones de programación.
+                    </p>
 
-                <p>
-                    <strong>Tecnologías:</strong>
-                    PHP · Laravel · SQL · HTML · CSS
-                </p>
+                </div>
 
-                <a href="#" class="proyecto-boton">
-                    Ver proyecto
+
+                <div class="info">
+
+                    <h3>Bases de datos</h3>
+
+                    <p>
+                        Diseño y gestión de bases de datos
+                        utilizando SQL, consultas y relaciones
+                        entre tablas.
+                    </p>
+
+                </div>
+
+
+                <div class="info">
+
+                    <h3>Desarrollo web</h3>
+
+                    <p>
+                        Desarrollo de páginas y aplicaciones
+                        web utilizando HTML, CSS, JavaScript,
+                        PHP y Laravel.
+                    </p>
+
+                </div>
+
+
+                <div class="info">
+
+                    <h3>Herramientas</h3>
+
+                    <p>
+                        Uso de Git, GitHub, Visual Studio Code,
+                        Android Studio, Eclipse y otros
+                        entornos de desarrollo.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         PROYECTOS
+         ===================================================== -->
+
+    <section id="proyectos" class="seccion proyectos">
+
+        <div class="contenedor">
+
+            <div class="titulo-seccion">
+
+                <h2>— PROYECTOS</h2>
+
+                <a href="#">
+                    Ver todos →
                 </a>
 
             </div>
 
 
-            <div class="proyecto">
+            <div class="proyectos-grid">
 
-                <h3>APLICACIÓN ANDROID</h3>
 
-                <p>
-                    Proyecto orientado al desarrollo de una aplicación
-                    móvil utilizando Android Studio.
-                </p>
+                <article class="proyecto" data-tech="html css sql javascript php laravel">
 
-                <p>
-                    <strong>Tecnologías:</strong>
-                    Kotlin · Android Studio
-                </p>
+                    <div class="proyecto-imagen">
 
-                <a href="#" class="proyecto-boton">
-                    Ver proyecto
-                </a>
+                        <div class="proyecto-placeholder">
+                            EL RECETARIO
+                        </div>
+
+                    </div>
+
+                    <div class="proyecto-contenido">
+
+                        <h3>
+                            El Recetario
+                        </h3>
+
+                        <p>
+                            Aplicación web de recetas con registro
+                            de usuarios, CRUD de recetas y sistema
+                            de categorías.
+                        </p>
+
+                        <div class="tecnologias-proyecto">
+
+                            <span>MySQL</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JSS</span>
+                            <span>PHP</span>
+
+
+                        </div>
+
+                        <a href="#" class="proyecto-boton">
+                            Ver proyecto
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="proyecto">
+
+                    <div class="proyecto-imagen">
+
+                        <div class="proyecto-placeholder">
+                            APLICACIÓN ANDROID
+                        </div>
+
+                    </div>
+
+                    <div class="proyecto-contenido">
+
+                        <h3>
+                            Aplicación Android
+                        </h3>
+
+                        <p>
+                            Proyecto de aplicación móvil desarrollado
+                            mediante Android Studio y Kotlin.
+                        </p>
+
+                        <div class="tecnologias-proyecto">
+
+                            <span>Kotlin</span>
+                            <span>Android</span>
+
+                        </div>
+
+                        <a href="#" class="proyecto-boton">
+                            Ver proyecto
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="proyecto">
+
+                    <div class="proyecto-imagen">
+
+                        <div class="proyecto-placeholder">
+                            PROYECTOS ACADÉMICOS
+                        </div>
+
+                    </div>
+
+                    <div class="proyecto-contenido">
+
+                        <h3>
+                            Proyectos académicos
+                        </h3>
+
+                        <p>
+                            Diferentes proyectos realizados durante
+                            mi formación en programación, bases de
+                            datos y desarrollo web.
+                        </p>
+
+                        <div class="tecnologias-proyecto">
+
+                            <span>Java</span>
+                            <span>SQL</span>
+                            <span>PHP</span>
+
+                        </div>
+
+                        <a href="#" class="proyecto-boton">
+                            Ver proyectos
+                        </a>
+
+                    </div>
+
+                </article>
+
 
             </div>
-
-
-            <div class="proyecto">
-
-                <h3>PROYECTOS ACADÉMICOS</h3>
-
-                <p>
-                    Diferentes proyectos desarrollados durante mi formación,
-                    incluyendo programación, bases de datos y desarrollo web.
-                </p>
-
-                <p>
-                    <strong>Áreas:</strong>
-                    Java · POO · SQL · PHP · Laravel
-                </p>
-
-                <a href="#" class="proyecto-boton">
-                    Ver proyectos
-                </a>
-
-            </div>
-
 
         </div>
 
@@ -471,21 +575,40 @@
          CONTACTO
          ===================================================== -->
 
-    <section id="contacto" class="seccion contacto">
+    <section id="contacto" class="contacto">
 
-        <h2>CONTACTO</h2>
+        <div class="contenedor contacto-contenido">
 
-        <div class="contenido-seccion">
+            <div class="contacto-texto">
 
-            <div class="info">
-
-                <h3>¿Hablamos?</h3>
+                <h2>
+                    ¿Hablamos?
+                </h2>
 
                 <p>
-                    Si quieres contactar conmigo para conocer más sobre
-                    mis proyectos, formación o disponibilidad para realizar
-                    prácticas, puedes hacerlo a través de mis redes o correo.
+                    Si te interesa mi perfil o quieres proponerme
+                    un proyecto, no dudes en contactar conmigo.
                 </p>
+
+            </div>
+
+
+            <div class="contacto-enlaces">
+
+                <a href="#">
+                    ✉
+                    <span>Correo electrónico</span>
+                </a>
+
+                <a href="#">
+                    in
+                    <span>LinkedIn</span>
+                </a>
+
+                <a href="#">
+                    ◉
+                    <span>GitHub</span>
+                </a>
 
             </div>
 
@@ -500,8 +623,12 @@
 
     <footer class="piep">
 
-        <p >
+        <p>
             © 2026 Luis A. Perez Alfonso
+        </p>
+
+        <p>
+            La constancia también es progreso.
         </p>
 
     </footer>
@@ -510,4 +637,3 @@
 </body>
 
 </html>
-
